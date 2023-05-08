@@ -1,0 +1,68 @@
+@import 'button';
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+main {
+    width: 400px;
+    margin:20px auto;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 7px
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2, h3 {
+    font-size: 16px;
+    color:#333;
+}
+
+input[type="text"] {
+    width: 65px;
+    padding: 5px;
+}
+
+.sign {
+    padding: 0 5px;
+}
+
+form {
+    padding-left: 20px;
+}
+
+#form-addition {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom:1px solid #333;
+}
+
+button {
+    width: 80px;
+    margin: 5px 0;
+}
+
+.result {
+    display: inline-block;
+    border-bottom: 1px solid #CCC;
+    padding: 5px;
+    min-width: 100px;
+}
+
+.comparison {
+    padding-top: 15px;
+    font-size: 13px;
+    color:#555;
+}
+
+.note {
+    font-size: 10px;
+    color:#555;
+}

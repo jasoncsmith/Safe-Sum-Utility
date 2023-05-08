@@ -1,0 +1,22 @@
+@use 'colors';
+@use 'mixins';
+
+button {
+    @include mixins.strip-default-button-styles();
+    background-color: colors.$buttonBlueHover;
+    padding: 5px 10px;
+    color:#FFF;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+    @include mixins.transition(200ms);
+
+    &:focus {
+        @include mixins.box-shadow(0 0 4px 1px colors.$buttonBlueHover);
+    }
+
+    &:hover {
+        background-color: colors.$buttonBlueHoverHover;
+    }
+}
